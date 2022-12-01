@@ -3,59 +3,46 @@
 <html lang="en">
 
 <head>
-    <title> Speedy Mart </title>
+    <title> Healthy Mind </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <!-- <link rel="icon" type="image/x-icon" href="../IMG/icon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="Images/WebIcon.ico"> 
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <!--
-    <header>
-        <div id="flex-container">
-            <div> <a href="../Main.html" title="Return to Home"> Home </a></div>
-            <div> <a href="Contact.html" title="Return to Contact Page"> Our Contacts </a> </div>
-        </div>
-    </header>
--->
+
     <div id="header">
         <header class="FirstNav">
-            <h1 class="pageTitle"> Mental Health Awareness </h1>
+            <h1 class="pageTitle"> Healthy Mind </h1>
 
 
-            <!-- Nav Bar in Banner Image with hover buttons -->
-            <div class="flex-container">
-                <!-- nav buttons -->
-                <div style="order: 1; flex-grow:1;" class="navbtn1" id="mainbtn"> <a href="../Main.html"
-                        title="Return to Home"> <span> Home Page </span></a> </div>
+        <!-- Nav Bar in Banner Image with hover buttons -->
+        <div class="flex-container">
+            <!-- nav buttons -->
+            <div  style="order: 1; flex-grow:1;" class="navbtn1" id="mainbtn"> <a href="../Main.html" title="Return to Home"> <span> Home </span></a> </div> 
+            
+            <div  style="order: 2; flex-grow:1" class="navbtn1" id="helpbtn">  <a href="Help Hotlines.html" title="Visit the Help Hotlines"> <span> Recieve Help </span></a> </div>    
 
-                <div style="order: 2; flex-grow:1" class="navbtn1" id="helpbtn"> <a href="Help Hotlines.html"
-                        title="Help Hotlines"> <span> Recieve Help </span></a> </div>
-
-                <div style="order: 3; flex-grow:1" class="dropdown" id="dropbtn">
-                    <button class="dropbtn"> Learn More About </button>
-                    <div class="dropdown-content">
-                        <a href="Anxiety.html"> Anxiety </a>
-                        <a href="Depression.html"> Depression </a>
-                        <a href="Substance Abuse.html"> Substance Abuse</a>
-                        <a href="Sucide Prevention.html"> Sucide Prevention </a>
-                    </div>
-
+            <div style="order: 3; flex-grow:1" class="dropdown" id="dropbtn">
+                <button class="dropbtn"> Learn More About </button>
+                <div class="dropdown-content">
+                    <a href="Anxiety.html"> Anxiety </a>
+                    <a href="Depression.html"> Depression </a>
+                    <a href="Substance Abuse.html"> Substance Abuse</a>
+                    <a href="Sucide Prevention.html"> Sucide Prevention </a>
                 </div>
 
-                <div style="order: 4; flex-grow:1" id="loginBtn"> <a href="Login.html" title="Login Page"> <span> Login
-                            Page </span></a> </div>
-                <div style="order: 5; flex-grow:1" id="registerBtn"> <a href="Registration.html"
-                        title="Registration Page"> <span> Registration Page
-                        </span></a> </div>
-
-                <div style="order: 6; flex-grow:1" id="contactBtn"> <a href="Contact.html" title="Contact Page"> <span>
-                            Contact Us For Support </span></a> </div>
-                <div class="navbtn1" id="searchbar" style="order: 7"> <input type="text" placeholder="Search.."> </div>
-
             </div>
+
+            <div  style="order: 4; flex-grow:1" id="loginBtn"> <a href="Login.html" title="Visit the Login Page"> <span> Login </span></a> </div> 
+            <div  style="order: 5; flex-grow:1" id="registerBtn" > <a href="Registration.html" title="Visit the Registration Page"> <span> Registration
+            </span></a>  </div>
+
+            <div style="order: 6; flex-grow:1" id="contactBtn">  <a href="Contact.html" title="Visit the Contact Page"> <span> Contact Us For Support </span></a> </div>  
+            <div class="navbtn1" id="searchbar" style="order: 7"> <input type="text" placeholder="Search.." > </div>
+            
+        </div>
 
 
         </header>
@@ -133,18 +120,10 @@
 
                         </tr>
 
-
                         <tr>
 
-
                             <td>
-                                <!--
-                                <button type="button", id="mySubmit" onclick="openPopUp()" > Submit </button>
-                                <div class="popup" id="popup">
-                                    <p id="message"> You have successfully login! </p>
-                                    <button type="button" onclick="closePopUp()" > OK! </button>
-                                </div> 
-                            -->
+
 
                                 <button type="submit" value="Submit" onclick="checkForBlank()"> Submit </button>
 
@@ -191,8 +170,8 @@
                                                 variable to the minimum, return error message if requirement is not met, 
                                                 do nothing if it is met */
                                             var temptext = document.getElementById('myConcerns').value;
-                                            if (temptext.length < 5) {
-                                                errormessage += "Your Concerns needs to be at least 5 characters long \n"
+                                            if (temptext.length < 10) {
+                                                errormessage += "Your Concerns needs to be at least 10 characters long \n"
                                             }
                                         }
 
@@ -212,19 +191,6 @@
                                         }
 
                                     }
-
-
-                                    let popup = document.getElementById("popup");
-                                    function openPopUp() {
-                                        popup.classList.add("open-popup");
-
-
-                                    }
-
-                                    function closePopUp() {
-                                        popup.classList.remove("open-popup");
-                                    }
-
 
 
                                 </script>
