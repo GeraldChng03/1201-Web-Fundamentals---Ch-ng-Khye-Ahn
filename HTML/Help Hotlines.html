@@ -7,55 +7,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
-    <!-- <link rel="icon" type="image/x-icon" href="../IMG/icon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="Images/WebIcon.ico"> 
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <!--
-    <header>
-        <div id="flex-container">
-            <div> <a href="../Main.html" title="Return to Home"> Home </a></div>
-            <div> <a href="Contact.html" title="Return to Contact Page"> Our Contacts </a> </div>
-        </div>
-    </header>
--->
+
     <div id="header">
         <header class="FirstNav">
-            <h1 class="pageTitle"> Mental Health Awareness </h1>
+            <h1 class="pageTitle"> Healthy Mind </h1>
 
 
-            <!-- Nav Bar in Banner Image with hover buttons -->
-            <div class="flex-container">
-                <!-- nav buttons -->
-                <div style="order: 1; flex-grow:1;" class="navbtn1" id="mainbtn"> <a href="../Main.html"
-                        title="Return to Home"> <span> Home Page </span></a> </div>
+        <!-- Nav Bar in Banner Image with hover buttons -->
+        <div class="flex-container">
+            <!-- nav buttons -->
+            <div  style="order: 1; flex-grow:1;" class="navbtn1" id="mainbtn"> <a href="../Main.html" title="Return to Home"> <span> Home </span></a> </div> 
+            
+            <div  style="order: 2; flex-grow:1" class="navbtn1" id="helpbtn">  <a href="Help Hotlines.html" title="Visit the Help Hotlines"> <span> Recieve Help </span></a> </div>    
 
-                <div style="order: 2; flex-grow:1" class="navbtn1" id="helpbtn"> <a href="Help Hotlines.html"
-                        title="Help Hotlines"> <span> Recieve Help </span></a> </div>
-
-                <div style="order: 3; flex-grow:1" class="dropdown" id="dropbtn">
-                    <button class="dropbtn"> Learn More About </button>
-                    <div class="dropdown-content">
-                        <a href="Anxiety.html"> Anxiety </a>
-                        <a href="Depression.html"> Depression </a>
-                        <a href="Substance Abuse.html"> Substance Abuse</a>
-                        <a href="Sucide Prevention.html"> Sucide Prevention </a>
-                    </div>
-
+            <div style="order: 3; flex-grow:1" class="dropdown" id="dropbtn">
+                <button class="dropbtn"> Learn More About </button>
+                <div class="dropdown-content">
+                    <a href="Anxiety.html"> Anxiety </a>
+                    <a href="Depression.html"> Depression </a>
+                    <a href="Substance Abuse.html"> Substance Abuse</a>
+                    <a href="Sucide Prevention.html"> Sucide Prevention </a>
                 </div>
 
-                <div style="order: 4; flex-grow:1" id="loginBtn"> <a href="Login.html" title="Login Page"> <span> Login
-                            Page </span></a> </div>
-                <div style="order: 5; flex-grow:1" id="registerBtn"> <a href="Registration.html"
-                        title="Registration Page"> <span> Registration Page
-                        </span></a> </div>
-
-                <div style="order: 6; flex-grow:1" id="contactBtn"> <a href="Contact.html" title="Contact Page"> <span>
-                            Contact Us For Support </span></a> </div>
-                <div class="navbtn1" id="searchbar" style="order: 7"> <input type="text" placeholder="Search.."> </div>
-
             </div>
+
+            <div  style="order: 4; flex-grow:1" id="loginBtn"> <a href="Login.html" title="Visit the Login Page"> <span> Login </span></a> </div> 
+            <div  style="order: 5; flex-grow:1" id="registerBtn" > <a href="Registration.html" title="Visit the Registration Page"> <span> Registration
+            </span></a>  </div>
+
+            <div style="order: 6; flex-grow:1" id="contactBtn">  <a href="Contact.html" title="Visit the Contact Page"> <span> Contact Us For Support </span></a> </div>  
+            <div class="navbtn1" id="searchbar" style="order: 7"> <input type="text" placeholder="Search.." > </div>
+            
+        </div>
 
 
         </header>
@@ -87,19 +74,18 @@
             <p> <i> You're not alone in this fight... </i> </p>
             <ul>
                 <li> Seek a professional help by visiting local General Practitioners (GP). </li>
-                <p> These professionals can provide a more detailed insight into your current conditions and struggles.
-                    They would be able to aid
-                    you much better as they can provide medications and advice tailored for you.
+                <p class="nested_list"> These professionals can provide a more detailed insight into your current conditions and struggles.
+                    They would be able to aid you much better as they can provide medications and advice tailored for you.
                 </p>
                 <li> Discuss any troubling thoughts with your family and friends. </li>
-                <p> Discussing key issues with people you know will enable you to feel more understood and hence, more
+                <p class="nested_list"> Discussing key issues with people you know will enable you to feel more understood and hence, more
                     supported. This is crucial in your fight for
                     a healthy mental health
                 </p>
                 <li> Arrange a therapy/ one-on-one session with professionals. </li>
             </ul>
 
-            <h3> Why getting help is important </h3>
+            <h3 id="importance"> Why getting help is important </h3>
             <img class="image" src="../Images/rsz_Depression_Img_1.jpg"> <img>
             <p> Recieving help from professionals can significantly change your life: </p>
             <ul>
@@ -114,7 +100,7 @@
             <br>
 
             <!-- Content under a sub-header -->
-            <h2 id="importance"> Malaysia </h2>
+            <h2> Malaysia </h2>
             <p> For those combating mental illness issues such as anxiety disorders, depression, substance abuse and/or
                 has experinced a history of attempted self-harm or know someone who is experincing such issue. Please go
                 the
@@ -187,7 +173,7 @@
             <div class="middle">
                 <!-- button text -->
                 <div class="hover_btn">
-                    <a href="Anxiety.html" title="Visit Template Selection Page"> Visit </a>
+                    <a href="Anxiety.html" title="Visit Anxiety Page"> Visit </a>
                 </div>
             </div>
         </div>
